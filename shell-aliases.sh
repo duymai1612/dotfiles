@@ -31,7 +31,7 @@ alias tfi='terraform init'
 alias tfp='terraform plan'
 alias tfa='terraform apply' 
 
-alias zshconfig="cursor ~/.zshrc"
+alias zshconfig="cursor ~/.dotfiles"
 alias aliasconfig="cursor ~/shell-aliases.sh"
 alias ohmyzsh="cursor ~/.oh-my-zsh"
 
@@ -52,7 +52,7 @@ alias gcnm="git commit -n -m"
 alias gmd="gf && git merge origin/develop"
 alias gmst="gf && git merge origin/staging"
 alias gfl="gf && gl"
-alias gprod="git pull --rebase origin $(git_develop_branch)"
+# alias gprod="git pull --rebase origin $(git_develop_branch)"
 alias gbc="git rev-parse --abbrev-ref HEAD | pbcopy"
 
 alias kan="killall node"
@@ -140,7 +140,7 @@ alias dc="doctl"
 # Python
 alias penv="source ./venv/bin/activate"
 
-alias addalias='f() { echo "alias "$1"=\"cd $(pwd)\"" >> ~/shell-aliases; unset -f f; }; f'
+alias addalias='f() { echo "alias "$1"=\"cd $(pwd)\"" >> ~/.dotfiles/shell-aliases.sh; unset -f f; }; f'
 alias bb2="cd /Users/duymai/work/b13/basis/backend_v2"
 alias bm="cd /Users/duymai/work/b13/basis-for-migrate"
 alias fgpeng="cd /Users/duymai/work/fg/sidekick"
@@ -169,3 +169,4 @@ alias detiq="cd /Users/duymai/work/b13/etiq/etiq"
 alias ddatapoints="cd /Users/duymai/work/b13/datapoints/datapoints_b13"
 alias di="cd /Users/duymai/work/interviews"
 
+alias dholly="cd /Users/duymai/work/first-mate/holly-nextjs"
