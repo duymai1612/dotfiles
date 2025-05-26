@@ -1,0 +1,21 @@
+
+# SpecStory explanation file
+.specstory/**
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive information
+.env
+.aws/
+.ssh/
+*.pem
+*.key
+# SpecStory explanation file
+.specstory/.what-is-this.md
