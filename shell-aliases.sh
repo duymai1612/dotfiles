@@ -52,7 +52,7 @@ alias gcnm="git commit -n -m"
 alias gmd="gf && git merge origin/develop"
 alias gmst="gf && git merge origin/staging"
 alias gfl="gf && gl"
-# alias gprod="git pull --rebase origin $(git_develop_branch)"
+alias gprod="git pull --rebase origin $(git_develop_branch)"
 alias gbc="git rev-parse --abbrev-ref HEAD | pbcopy"
 
 alias kan="killall node"
@@ -170,3 +170,6 @@ alias ddatapoints="cd /Users/duymai/work/b13/datapoints/datapoints_b13"
 alias di="cd /Users/duymai/work/interviews"
 
 alias dholly="cd /Users/duymai/work/first-mate/holly-nextjs"
+
+alias dap="cd /Users/duymai/work/b13/apraise-as/Backend"
+alias ap="dap && npm run start:dev"
