@@ -31,9 +31,9 @@ alias tfi='terraform init'
 alias tfp='terraform plan'
 alias tfa='terraform apply' 
 
-alias zshconfig="cursor ~/.dotfiles"
-alias aliasconfig="cursor ~/shell-aliases.sh"
-alias ohmyzsh="cursor ~/.oh-my-zsh"
+alias zshconfig="c ~/.dotfiles"
+alias aliasconfig="c ~/shell-aliases.sh"
+alias ohmyzsh="c ~/.oh-my-zsh"
 
 alias rnm="rm -rf node_modules"
 alias rlf="rm -f yarn.lock package-lock.json"
@@ -54,6 +54,7 @@ alias gmst="gf && git merge origin/staging"
 alias gfl="gf && gl"
 alias gprod="git pull --rebase origin $(git_develop_branch)"
 alias gbc="git rev-parse --abbrev-ref HEAD | pbcopy"
+alias backupbranch="gcb bak/$(git rev-parse --abbrev-ref HEAD)"
 
 alias kan="killall node"
 
@@ -147,7 +148,7 @@ alias fgpeng="cd /Users/duymai/work/fg/sidekick"
 alias ptfs="cd /Users/duymai/work/peterson-tech/file-server"
 alias pts="cd /Users/duymai/work/peterson-tech/systems"
 
-alias c="cursor ."
+alias c="code ."
 
 alias gbe="cd /Users/duymai/work/useget/get-node-server"
 alias sb="cd /Users/duymai/work/b13/shirepf-backend"
