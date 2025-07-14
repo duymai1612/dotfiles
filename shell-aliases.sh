@@ -31,9 +31,9 @@ alias tfi='terraform init'
 alias tfp='terraform plan'
 alias tfa='terraform apply' 
 
-alias zshconfig="c ~/.dotfiles"
-alias aliasconfig="c ~/shell-aliases.sh"
-alias ohmyzsh="c ~/.oh-my-zsh"
+alias zshconfig="code ~/.dotfiles"
+alias aliasconfig="code ~/shell-aliases.sh"
+alias ohmyzsh="code ~/.oh-my-zsh"
 
 alias rnm="rm -rf node_modules"
 alias rlf="rm -f yarn.lock package-lock.json"
